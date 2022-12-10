@@ -4,17 +4,25 @@
  * main -  prints the alphabet in lowercase, and then in uppercase
  * return: Always 0
  */
+
 int main(void)
 {
-	char ch;
+	char l;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);	
+	char u;
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);	
-	
+	l = 'a';
+	u = 'A';
+	while
+		(l <= 'z') {
+			putchar(l);
+			l++;
+		}
+	while
+		(u <= 'z') {
+			putchar(u);
+			u++;
+		}
 	putchar('\n');
-	
 	return (0);
 }
